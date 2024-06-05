@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width:100vw;    
+    display:flex;
+    border:1px solid red;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.logo{
+    height:100px;
+}
+.nav-bar{
+    display:flex;
+   
+    align-items: center;
+    font-size: 24px;
+    border:1px solid yellow;
+    width:calc(100vw-163px);
+    
+
+    
+    
+}
+.nav-items{
+    padding:20px;
+   
+   
+}
+.search-bar{
+    font-size: 1.5rem;
+   
+}
+.input{
+    font-size: 1.4rem;
+    padding: 1rem;
+    width:40vw;
+    margin-top:2rem;
+    margin-bottom:1rem;
+}
+.resturant-card{
+    padding:5px;
+   
+    width:200px;
+   
+    margin-left:15px
+}
+#res-logo{
+    width:100%;
+   
+   
+}
+.resturant-card:hover{
+    border:1px solid black;
+    cursor:pointer
+}
+#cuisines{
+    font-size: small;
+
+}
+.res-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.filter-btn{
+    height:35px;
+    width:250px;
+    font-size: 1.5rem;
+    margin-right:10px
+}
+.shimmer-card{
+    height:200px;
+    width:236px;
+    
+    background-color: rgb(240, 235, 235);
+    margin:15px;
+    
+}
+.shimmer-cards{
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+}
+.shimmer-search{
+    height:50px;
+    width:500px;
+    background-color:  rgb(240, 235, 235);
+    border-radius: 5px;
+    margin-right:"100px"
+}
+.login-btn{
+    padding:5px;
+    font-size: 24px;
+}
+.search-btn{
+    padding: 12px;
+    font-size: 1.5rem;
+}
+.filter{
+    display:flex;
+    align-items:center
+}
+.menu{
+  
+    border:1px solid black;
+    padding-left:20rem;
+    padding-right:20rem;
+}
+.res-info{
+
+    height:200px;
+    /* margin:20px,30px,20px,30px; */
+    /* border:1px solid blue; */
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.rating-info{
+height:100px;
+width:100px;
+border:1px solid rgb(190, 186, 186);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.about-res{
+    font-size:20px;
+}
+.menu-item-image{
+    height:200px;
+    width:200px;
+
+}
+
+.meals{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.user-cards{
+    font-size: 25px;
+    border:1px solid black
+}
+
+.about-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
